@@ -9,7 +9,6 @@ use byteorder::{LittleEndian, ReadBytesExt};
 use bcndecode::{BcnDecoderFormat, BcnEncoding, decode};
 use png_encode_mini::write_rgba_from_u8;
 
-
 struct Mipmap {
   width: u16,
   height: u16,
