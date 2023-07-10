@@ -1,0 +1,13 @@
+[package]
+name = "texfile"
+version = "0.1.0"
+edition = "2021"
+description = "Klei texture file to png converter"
+keywords = ["conversion","tex","klei","dst","png","file"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1"
+bcndecode = "0.2.0"
+png_encode_mini = "0.1.2"
